@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    margin: 0ex;
+    
+}
+h1{
+    background-color: red;
+}
+
+#btns{
+    display:flex;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+button{
+    border-radius: 20px;
+}
+#increment-btn:hover{
+    background-color: green;
+}
+
+#decrement-btn:hover{
+    background-color: red;
+}
+
+#reset-btn:hover{
+    background-color: yellow;
+}
+
+#save-btn:hover{
+    background-color: yellowgreen;
+}
+
+#count-el{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+#save-el{
+    padding-top: 50px;
+}
